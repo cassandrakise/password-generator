@@ -1,13 +1,14 @@
-First submission:
+Second submission:
 
-Struggled with this one grading folks, please provide help!!
+It works! Thanks ya'll.
 
+https://cassandrakise.github.io/password-generator/
+https://github.com/cassandrakise/password-generator
 
-
-
-
-
-
+Screenshot:
+![ScreenShot](password-generator-image-01.jpg)
+![ScreenShot](password-generator-image-02.jpg)
+________________
 ////
 # password-generator
 # 03 JavaScript: Password Generator
