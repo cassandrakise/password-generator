@@ -1,5 +1,3 @@
-// Assignment Code
-
 // Character possibilities and possible password values
 var pwLength = "";
 var numberChar = "1234567890";
@@ -8,15 +6,8 @@ var upperChar = "ABCDEFGHIJKLMNOPQRSTUVWYXZ";
 var optionsChar = "";
 var specialChar = "!@#$%^&*()_+~`=-;?/";
 
-var passwordText = function(){
-  // begin questions
-  
-}
 
-// setting length of password
-
-
-// what characters are used in password
+// the following functioning allows for the user to select the lenth of the password 
 
 function options(){
   pwLength = prompt("Your password must be a length between 8 and 128 characters: ");
@@ -26,7 +17,9 @@ function options(){
     } else if (pwLength >= 8 || pwLength <= 128){
     
   }
-  
+
+// lines 27 through 42 include decisions about desired values in password selection
+
 var okNumbercase = confirm("Do you want to use numbers?");
 if (okNumbercase === true){
   optionsChar += numberChar
@@ -62,13 +55,10 @@ console.log(pwValue);
 
 }
 
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-// Write password to the #password input
 function writePassword() {
-  //call passwordOptions here until you create the generatePassword function
-  // passwordOptions()
+
   var password = generatePassword(); // pulls final value from pwValue
   var passwordText = document.querySelector("#password");
 
@@ -76,5 +66,4 @@ function writePassword() {
 
 }
 
-// Add event listener to generate button
 generateBtn.addEventListener("click", writePassword); // ties finaly value with event listener of generate
