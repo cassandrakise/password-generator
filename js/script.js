@@ -13,7 +13,8 @@ function options(){
   pwLength = prompt("Your password must be a length between 8 and 128 characters: ");
     if (pwLength < 8 || pwLength > 128){
       alert("Your password must be between 8 and 128 characters");
-    
+      return null;
+
     } else if (pwLength >= 8 || pwLength <= 128){
     
   }
