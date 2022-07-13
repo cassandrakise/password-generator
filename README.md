@@ -6,6 +6,6 @@ https://cassandrakise.github.io/password-generator/
 https://github.com/cassandrakise/password-generator
 
 Screenshot:
-![ScreenShot](password-generator-image-01.jpg)
-![ScreenShot](password-generator-image-02.jpg)
+![ScreenShot](./images/password-generator-image-01.jpg)
+![ScreenShot](./images/password-generator-image-02.jpg)
 ________________
